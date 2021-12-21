@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, get a Free Moralis Admin account [here](https://admin.moralis.io/register). Then, create a new server (Mainnet/Testnet) and choose Avalanche as the required chain. Once a server is created, get the App Id and Server Url and copy them to the `.env` file which can be created by copying `.env.example` and renaming it.
+
+```
+NEXT_PUBLIC_MORALIS_APP_ID=xxx
+NEXT_PUBLIC_MORALIS_SERVER_URL=xxx
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
