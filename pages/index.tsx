@@ -16,10 +16,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Miner's Nations!</a>
+          Welcome to <a href="https://nextjs.org">Miner&apos;s Nations!</a>
         </h1>
 
-        <p className={styles.description}>Miner's Nations</p>
+        <p className={styles.description}>Miner&apos;s Nations</p>
         {!isAuthenticated ? (
           <button onClick={() => authenticate()}>Connect Wallet</button>
         ) : (
