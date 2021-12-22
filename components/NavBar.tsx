@@ -45,7 +45,7 @@ export default function NavBar() {
   );
 }
 
-function NavLinks({ text }) {
+function NavLinks({text} : { text:string }) {
   return (
     <a
       href="/"
