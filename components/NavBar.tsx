@@ -6,12 +6,9 @@ export default function NavBar() {
   return (
     <div className="rounded-md mt-3 sm:mx-3 mx-1 bg-black bg-opacity-90 flex items-center text-white font-bold px-4 py-3 justify-between shadow-md">
       <div className="flex items-center">
-        <a
-          href="/"
-          className="sm:text-xl text-lg sm:pr-4 pr-2 border-r border-gray-500"
-        >
+        <p className="sm:text-xl text-lg sm:pr-4 pr-2 border-r cursor-pointer border-gray-500">
           Miner&apos;s <span className="text-blue-400">nation</span>
-        </a>
+        </p>
         <div className="flex items-center pl-4 hidden md:block">
           <NavLinks text="Home" />
           <NavLinks text="About" />
@@ -45,14 +42,11 @@ export default function NavBar() {
   );
 }
 
-function NavLinks({text} : { text:string }) {
+function NavLinks({ text }: { text: string }) {
   return (
-    <a
-      href="/"
-      className="pr-2 pl-2 lg:pr-4 lg:pr-4  text-sm ease-in hover:text-blue-500"
-    >
+    <p className="pr-2 pl-2 lg:pr-4 lg:pr-4  text-sm cursor-pointer ease-in hover:text-blue-500">
       {text}
-    </a>
+    </p>
   );
 }
 
