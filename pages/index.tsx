@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useMoralis } from "react-moralis";
+// import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar";
 
 const Home: NextPage = () => {
-  const { authenticate, logout, isAuthenticated } = useMoralis();
+  // const { authenticate, logout, isAuthenticated } = useMoralis();
   return (
     <div className={styles.container}>
       <Head>
@@ -13,8 +14,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main>
+        <NavBar />
+        {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Miner&apos;s Nations!</a>
         </h1>
 
@@ -53,7 +55,7 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </div>
   );
