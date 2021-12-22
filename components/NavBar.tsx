@@ -9,7 +9,7 @@ export default function NavBar() {
         <p className="sm:text-xl text-lg sm:pr-4 pr-2 border-r cursor-pointer border-gray-500">
           Miner&apos;s <span className="text-blue-400">nation</span>
         </p>
-        <div className="flex items-center pl-4 hidden md:block">
+        <div className=" items-center pl-4 hidden md:flex">
           <NavLinks text="Home" />
           <NavLinks text="About" />
           <NavLinks text="How it works" />
