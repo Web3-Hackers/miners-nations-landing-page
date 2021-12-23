@@ -2,7 +2,7 @@
   transition: all 0.35s cubic-bezier(1, 0, 0, 1);
   position: relative;
   z-index: 20;
-  box-shadow: 3px 3px 5px -1px rgba(59, 130, 246, 0.3);
+  box-shadow: 3px 3px 5px -1px rgba(59, 130, 246, 0.8);
 }
 
 .btn:hover {
@@ -19,7 +19,7 @@
 
 .btn::before,
 .btn::after {
-  background-color: white;
+  background-color: black;
   content: "";
   position: absolute;
   z-index: -1;

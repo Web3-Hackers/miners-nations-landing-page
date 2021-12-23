@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 // import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
-import NavBar from "../components/NavBar";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   // const { authenticate, logout, isAuthenticated } = useMoralis();
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <NavBar />
+        <Header />
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Miner&apos;s Nations!</a>
         </h1>
