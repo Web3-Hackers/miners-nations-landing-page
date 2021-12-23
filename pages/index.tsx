@@ -3,6 +3,7 @@ import Head from "next/head";
 // import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
+import HomeSect from "../components/HomeSect";
 
 const Home: NextPage = () => {
   // const { authenticate, logout, isAuthenticated } = useMoralis();
@@ -14,8 +15,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="">
         <Header />
+        <HomeSect />
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Miner&apos;s Nations!</a>
         </h1>

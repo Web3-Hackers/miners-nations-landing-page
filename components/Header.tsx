@@ -5,8 +5,8 @@ import styles from "../styles/nav.module.css";
 export default function Header() {
   const { authenticate, logout, isAuthenticated } = useMoralis();
   return (
-    <div className="w-screen bg-blue-200 h-screen">
-      <div className="mx-2 sm:mx-3 relative">
+    <div className="bg-blue-200 pb-24 md:pb-0 md:h-screen">
+      <div className="md:mx-3 mx-2 relative">
         <NavBar />
       </div>
       <div className="md:pt-56 pt-48 flex flex-col items-center">
