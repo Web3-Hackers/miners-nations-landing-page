@@ -5,15 +5,15 @@ import styles from "../styles/nav.module.css";
 export default function Header() {
   const { authenticate, logout, isAuthenticated } = useMoralis();
   return (
-    <div className="bg-blue-200 pb-24 md:pb-0 md:h-screen">
+    <div className="bg-blue-200 md:pb-0 h-screen">
       <div className="md:mx-3 mx-2 relative">
         <NavBar />
       </div>
-      <div className="md:pt-56 pt-48 flex flex-col items-center">
+      <div className="pt-56  flex flex-col items-center">
         <p className="text-center font-semibold text-4xl sm:text-6xl text-black">
           Miner&apos;s <span className="text-blue-500">nation</span>
         </p>
-        <p className="font-light w-full px-4 md:w-1/2 sm:text-lg text-center my-4">
+        <p className="font-light w-full px-4 md:w-1/2 sm:text-lg text-center mt-4 mb-8">
           Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
           ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
           lorem ipsum lorem doro lorum lorem ipsum lorem doro lorum lorem ipsum
