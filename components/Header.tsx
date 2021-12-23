@@ -9,7 +9,7 @@ export default function Header() {
       <div className="md:mx-3 mx-2 relative">
         <NavBar />
       </div>
-      <div className="pt-56  flex flex-col items-center">
+      <div className="md:pt-56 pt-64 flex flex-col items-center">
         <p className="text-center font-semibold text-4xl sm:text-6xl text-black">
           Miner&apos;s <span className="text-blue-500">nation</span>
         </p>
