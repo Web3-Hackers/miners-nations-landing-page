@@ -2,12 +2,12 @@ import NavBar from "./NavBar";
 import { useMoralis } from "react-moralis";
 import styles from "../styles/nav.module.css";
 
-export default function Header() {
+export default function Header({ handleClick }: { handleClick: any }) {
   const { authenticate, logout, isAuthenticated } = useMoralis();
   return (
     <div className="bg-blue-200 md:pb-0 h-screen">
       <div className="md:mx-3 mx-2 relative">
-        <NavBar />
+        <NavBar handleClick={handleClick} />
       </div>
       <div className="md:pt-56 pt-64 flex flex-col items-center">
         <p className="text-center font-semibold text-4xl sm:text-6xl text-black">

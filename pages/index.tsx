@@ -1,11 +1,18 @@
 import type { NextPage } from "next";
+import { useState } from "react";
 import Head from "next/head";
 // import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import HomeSect from "../components/HomeSect";
+import Overlay from "../components/Overlay";
 
 const Home: NextPage = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => {
+    setClick(!click);
+    console.log(click);
+  };
   // const { authenticate, logout, isAuthenticated } = useMoralis();
   return (
     <div className={styles.container}>
@@ -15,8 +22,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
-        <Header />
+      <main className={`relative ${click && "overflow-y-hidden h-screen"}`}>
+        {click && <Overlay handleClick={handleClick} />}
+        <Header handleClick={handleClick} />
         <HomeSect />
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Miner&apos;s Nations!</a>

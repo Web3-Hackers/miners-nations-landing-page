@@ -1,4 +1,4 @@
-export default function NavBar() {
+export default function NavBar({ handleClick }: { handleClick: any }) {
   return (
     <div className="rounded-md w-full absolute left-0 top-3 bg-black bg-opacity-90 flex items-center text-white font-bold px-4 py-3 md:py-4 justify-between shadow-md">
       <p className="sm:text-xl text-lg sm:pr-4 pr-2 border-r cursor-pointer border-gray-500">
@@ -12,14 +12,17 @@ export default function NavBar() {
         <NavLinks text="Request demo" />
         <NavLinks text="Shop" />
       </div>
-      <span className="block md:hidden p-1 sm:p-2 rounded-full bg-white ease-in ml-4 cursor-pointer">
+      <span
+        className="block md:hidden p-1 sm:p-2 rounded-full bg-white ease-in ml-4 cursor-pointer"
+        onClick={() => handleClick()}
+      >
         <Hamburger />
       </span>
     </div>
   );
 }
 
-function NavLinks({ text }: { text: string }) {
+function NavLinks({ text }: { text: String }) {
   return (
     <p className="pr-2 pl-2 lg:pr-4  text-sm cursor-pointer ease-in hover:text-blue-500">
       {text}
