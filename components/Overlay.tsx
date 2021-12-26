@@ -1,6 +1,6 @@
 export default function Overlay({ handleClick }: { handleClick: any }) {
   return (
-    <div className="bg-black bg-opacity-90 h-screen w-screen relative px-16 md:hidden">
+    <div className="bg-black h-screen w-screen relative px-16 md:hidden z-20">
       <span
         className="absolute right-0 top-0 sm:pr-16 pr-10 pt-10 cursor-pointer"
         onClick={() => handleClick()}
