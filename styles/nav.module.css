@@ -9,13 +9,17 @@
   color: rgba(59, 130, 246, 0.8);
 }
 
-/* .btn::before {
+/*
+
+.btn::before {
   background-color: pink;
 }
 
 .btn::after {
   background: pink;
-} */
+}
+
+*/
 
 .btn::before,
 .btn::after {
