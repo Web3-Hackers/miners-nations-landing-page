@@ -8,42 +8,42 @@ export default function Footer() {
           <a
             href="https://www.youtube.com/channel/UCMoV4O5ULbF9VXtQ7K5I3Dg"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             YouTube
           </a>
           <a
             href="https://theminersnation.medium.com"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             Medium
           </a>
           <a
             href="https://instagram.com/theminersnation_"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             Instagram
           </a>
           <a
             href="https://twitter.com/theminersnation"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             Twitter
           </a>
           <a
             href="https://www.reddit.com/u/theminersnation"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             Reddit
           </a>
           <a
             href="https://t.me/TheMinersNation/"
             target="_blank" rel="noreferrer"
-            className="text-blue-300 hover:text-white px-6"
+            className="text-white font-bold px-6"
           >
             Telegram
           </a>
