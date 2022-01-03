@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Miner&apos;s Nation</title>
-        <meta name="description" content="First person shooter blockchain game" />
+        <meta name="description" content="First Person Shooter Blockchain Game" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
