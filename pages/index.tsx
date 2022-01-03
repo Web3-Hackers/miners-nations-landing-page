@@ -7,6 +7,7 @@ import HomeSect from "../components/HomeSect";
 import Overlay from "../components/Overlay";
 import ClaimDrop from "../components/ClaimDrop";
 import About from "../components/About";
+import Roadmap from "../components/Roadmap";
 
 const Home: NextPage = () => {
   const [click, setClick] = useState(false);
@@ -18,7 +19,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Miner&apos;s Nation</title>
-        <meta name="description" content="First person shooter blockchain game" lang="en" />
+        <meta name="description" content="First person shooter blockchain game" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         <HomeSect />
         <ClaimDrop />
         <About />
+        <Roadmap />
       </main>
     </div>
   );
