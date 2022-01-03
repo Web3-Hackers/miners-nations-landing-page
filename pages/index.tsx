@@ -8,6 +8,10 @@ import Overlay from "../components/Overlay";
 import ClaimDrop from "../components/ClaimDrop";
 import About from "../components/About";
 import Roadmap from "../components/Roadmap";
+import Tokenomics from "../components/Tokenomics";
+import Team from "../components/Team";
+import Presale from "../components/Presale";
+import Airdrop from "../components/Airdrop";
 
 const Home: NextPage = () => {
   const [click, setClick] = useState(false);
@@ -30,6 +34,10 @@ const Home: NextPage = () => {
         <ClaimDrop />
         <About />
         <Roadmap />
+        <Tokenomics />
+        <Team />
+        <Presale />
+        <Airdrop />
       </main>
     </div>
   );
