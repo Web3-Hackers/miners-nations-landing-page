@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import HomeSect from "../components/HomeSect";
 import Overlay from "../components/Overlay";
 import ClaimDrop from "../components/ClaimDrop";
+import About from "../components/About";
 
 const Home: NextPage = () => {
   const [click, setClick] = useState(false);
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
         <Header handleClick={handleClick} />
         <HomeSect />
         <ClaimDrop />
+        <About />
       </main>
     </div>
   );
