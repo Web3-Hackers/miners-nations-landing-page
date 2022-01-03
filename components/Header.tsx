@@ -14,10 +14,7 @@ export default function Header({ handleClick }: { handleClick: any }) {
           Miner&apos;s <span className="text-blue-500">nation</span>
         </p>
         <p className="font-light w-full px-4 md:w-1/2 sm:text-lg text-center mt-4 mb-8">
-          Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
-          ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
-          lorem ipsum lorem doro lorum lorem ipsum lorem doro lorum lorem ipsum
-          lorem doro lorum lorem ipsum lorem doro.
+          The Miners Nation is a first person shooter game where players fend off enemies to collect PC parts. Players can then exchange parts for Rig Token and purchase more parts to buidl a rig. Players also have the ability to mint parts on Open Sea as NFTs. These same NFTs can be combined to buidl a rig (Marketplace in development). Once a rig is assembled a player can then use the rig to mine Rig Token. Rig Token will be used to exchange for other tokens on exchanges.
         </p>
         {!isAuthenticated ? (
           <button
