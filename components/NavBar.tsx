@@ -1,6 +1,6 @@
 export default function NavBar({ handleClick }: { handleClick: any }) {
   return (
-    <div className="rounded-md w-full fixed z-10 left-0 bg-black bg-opacity-90 flex items-center text-white font-bold px-4 py-3 md:py-4 justify-between shadow-md">
+    <div className="w-full fixed z-10 left-0 bg-black bg-opacity-90 flex items-center text-white font-bold px-4 py-3 md:py-4 justify-between shadow-md">
       <p className="sm:text-xl text-lg sm:pr-4 pr-2 border-r cursor-pointer border-gray-500">
         Miner&apos;s <span className="text-blue-400">Nation</span>
       </p>
