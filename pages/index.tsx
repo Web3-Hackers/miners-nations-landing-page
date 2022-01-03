@@ -12,6 +12,7 @@ import Tokenomics from "../components/Tokenomics";
 import Team from "../components/Team";
 import Presale from "../components/Presale";
 import Airdrop from "../components/Airdrop";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   const [click, setClick] = useState(false);
@@ -38,6 +39,7 @@ const Home: NextPage = () => {
         <Team />
         <Presale />
         <Airdrop />
+        <Footer />
       </main>
     </div>
   );
