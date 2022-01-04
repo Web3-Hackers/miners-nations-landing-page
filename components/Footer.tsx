@@ -1,4 +1,10 @@
 import styles from "../styles/nav.module.css";
+import { AiOutlineYouTube } from "react-icons/ai";
+import { AiOutlineMedium } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineReddit } from "react-icons/ai";
+import { AiOutlineTelegram } from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -10,42 +16,42 @@ export default function Footer() {
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            YouTube
+            <AiOutlineYouTube />
           </a>
           <a
             href="https://theminersnation.medium.com"
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            Medium
+            <AiOutlineMedium />
           </a>
           <a
             href="https://instagram.com/theminersnation_"
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            Instagram
+            <AiOutlineInstagram />
           </a>
           <a
             href="https://twitter.com/theminersnation"
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            Twitter
+            <AiOutlineTwitter />
           </a>
           <a
             href="https://www.reddit.com/u/theminersnation"
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            Reddit
+            <AiOutlineReddit />
           </a>
           <a
             href="https://t.me/TheMinersNation/"
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            Telegram
+            <AiOutlineTelegram />
           </a>
         </div>
       </div>
