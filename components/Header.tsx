@@ -31,6 +31,9 @@ export default function Header({ handleClick }: { handleClick: any }) {
             Disconnect
           </button>
         )}
+        <button className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}>
+          Play Now
+        </button>
       </div>
     </div>
   );
