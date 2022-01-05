@@ -1,10 +1,10 @@
 import styles from "../styles/nav.module.css";
-import { AiOutlineYouTube } from "react-icons/ai";
+import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineMedium } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineReddit } from "react-icons/ai";
-import { AiOutlineTelegram } from "react-icons/ai";
+import { BsTelegram } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            <AiOutlineYouTube />
+            <AiOutlineYoutube />
           </a>
           <a
             href="https://theminersnation.medium.com"
@@ -51,7 +51,7 @@ export default function Footer() {
             target="_blank" rel="noreferrer"
             className="text-white font-bold px-6 hover:text-blue-500"
           >
-            <AiOutlineTelegram />
+            <BsTelegram />
           </a>
         </div>
       </div>
