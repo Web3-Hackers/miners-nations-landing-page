@@ -1,11 +1,5 @@
 import type { NextPage } from "next";
 import { useState } from "react";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { AiOutlineMedium } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineReddit } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
