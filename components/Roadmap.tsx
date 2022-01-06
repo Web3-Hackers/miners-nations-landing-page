@@ -1,10 +1,11 @@
 import styles from "../styles/nav.module.css";
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
+
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
 
 export default function Roadmap() {
   return (
@@ -17,27 +18,62 @@ export default function Roadmap() {
               <TimelineDot variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Eat</TimelineContent>
+            <TimelineContent>
+              SEPTEMBER 2021: Project ideation, team assembling and technology
+              development. A rock-solid foundation was created to ignite the
+              spark of a revolutionary digital space.
+            </TimelineContent>
           </TimelineItem>
+
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" color="primary" />
+              <TimelineDot variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Code</TimelineContent>
+            <TimelineContent>
+              DESEMBER 2021: The project launches a public sale and IDO.
+            </TimelineContent>
           </TimelineItem>
+
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" color="secondary" />
+              <TimelineDot variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Sleep</TimelineContent>
+            <TimelineContent>
+              Q1 2022: Exciting release of the first GamePad in-house game.
+              Listing on Pancake Swap, Apply on Coingecko and Coinmarketcap.
+            </TimelineContent>
           </TimelineItem>
+
           <TimelineItem>
             <TimelineSeparator>
               <TimelineDot variant="outlined" />
             </TimelineSeparator>
-            <TimelineContent>Repeat</TimelineContent>
+            <TimelineContent>
+              Q2 2022: Incubation of in-house projects, utilising farming and
+              staking pools to maximize community profits.
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+            </TimelineSeparator>
+            <TimelineContent>
+              Q3 2022: Development of in-house projects, particularly The
+              Miners's Nation Metaverse v1 completion.
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+            </TimelineSeparator>
+            <TimelineContent>
+              Q4 2022: Miner's Nation releases second in-house game along with
+              land sales and DEX.
+            </TimelineContent>
           </TimelineItem>
         </Timeline>
         <button
