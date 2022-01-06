@@ -31,7 +31,7 @@ export default function Roadmap() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              DESEMBER 2021: The project launches a public sale and IDO.
+              DECEMBER 2021: The project launches a public sale and IDO.
             </TimelineContent>
           </TimelineItem>
 
@@ -49,6 +49,7 @@ export default function Roadmap() {
           <TimelineItem>
             <TimelineSeparator>
               <TimelineDot variant="outlined" />
+              <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               Q2 2022: Incubation of in-house projects, utilising farming and
@@ -59,6 +60,7 @@ export default function Roadmap() {
           <TimelineItem>
             <TimelineSeparator>
               <TimelineDot variant="outlined" />
+              <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               Q3 2022: Development of in-house projects, particularly The
