@@ -62,7 +62,7 @@ export default function Roadmap() {
             </TimelineSeparator>
             <TimelineContent>
               Q3 2022: Development of in-house projects, particularly The
-              Miners's Nation Metaverse v1 completion.
+              Minerss Nation Metaverse v1 completion.
             </TimelineContent>
           </TimelineItem>
 
@@ -71,7 +71,7 @@ export default function Roadmap() {
               <TimelineDot variant="outlined" />
             </TimelineSeparator>
             <TimelineContent>
-              Q4 2022: Miner's Nation releases second in-house game along with
+              Q4 2022: Miners Nation releases second in-house game along with
               land sales and DEX.
             </TimelineContent>
           </TimelineItem>
