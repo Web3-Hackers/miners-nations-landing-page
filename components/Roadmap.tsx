@@ -78,13 +78,7 @@ export default function Roadmap() {
             </TimelineContent>
           </TimelineItem>
         </Timeline>
-        <button
-          className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
-        >
-          Roadmap
-        </button>
       </div>
-      <div className="md:w-1/2 mt-6 md:mt-0 w-full h-48 md:ml-4 ring-1 ring-blue-300"></div>
     </div>
   );
 }
