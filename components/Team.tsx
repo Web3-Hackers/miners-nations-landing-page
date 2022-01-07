@@ -1,4 +1,6 @@
 import styles from "../styles/nav.module.css";
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 
 export default function Team() {
   return (
@@ -9,6 +11,11 @@ export default function Team() {
           Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
           ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
         </p>
+        <Stack direction="row" spacing={2}>
+          <Avatar alt="test1" src="1.jpg" />
+          <Avatar alt="test2" src="2.jpg" />
+          <Avatar alt="test3" src="3.jpg" />
+        </Stack>
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
