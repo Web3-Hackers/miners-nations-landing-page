@@ -8,7 +8,6 @@ export default function Team() {
         <p className="font-light sm:text-lg pb-4">
           Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
           ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
-          lorem ipsum lorem doro.
         </p>
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
