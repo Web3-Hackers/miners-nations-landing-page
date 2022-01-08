@@ -6,9 +6,7 @@ export default function About() {
       <div className="md:w-1/2 w-full">
         <p className="font-semibold text-4xl sm:text-4xl pb-4">About Text</p>
         <p className="font-light sm:text-lg pb-4">
-          Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
-          ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
-          lorem ipsum lorem doro.
+          The Miners Nation is a first person shooter game where players fend off enemies to collect PC parts. Players can then exchange parts for Rig Token and purchase more parts to buidl a rig. Players also have the ability to mint parts on Open Sea as NFTs. These same NFTs can be combined to buidl a rig (Marketplace in development). Once a rig is assembled a player can then use the rig to mine Rig Token. Rig Token will be used to exchange for other tokens on exchanges.
         </p>
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
