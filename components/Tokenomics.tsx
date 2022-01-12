@@ -3,7 +3,7 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import * as Plotly from 'plotly.js';
 import { Config, Datum, Layout, PlotData, newPlot, Template } from 'plotly.js';
 
-const data: Plotly.BarData[] = [
+const data = [
   {
     x: ['giraffes', 'orangutans', 'monkeys'],
     y: [20, 14, 23],
