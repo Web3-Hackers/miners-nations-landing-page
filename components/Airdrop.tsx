@@ -2,7 +2,7 @@ import styles from "../styles/nav.module.css";
 
 export default function Airdrop() {
   return (
-    <div className="flex items-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
+    <div className="flex items-center justify-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
       <div className="md:w-1/2 w-full">
         <p className="font-semibold text-4xl sm:text-4xl pb-4">Claim Airdrop</p>
         <p className="font-light sm:text-lg pb-4">
