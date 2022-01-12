@@ -3,15 +3,23 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import * as Plotly from 'plotly.js';
 import { Config, Datum, Layout, PlotData, newPlot, Template } from 'plotly.js';
 
-const data = [
-  {
-    x: ['giraffes', 'orangutans', 'monkeys'],
-    y: [20, 14, 23],
-    type: 'bar'
-  }
-];
+var data = [{
+  type: "pie",
+  values: [2, 3, 4, 4],
+  labels: ["Wages", "Operating expenses", "Cost of sales", "Insurance"],
+  textinfo: "label+percent",
+  textposition: "outside",
+  automargin: true
+}]
 
-Plotly.newPlot('test', data);
+var layout = {
+  height: 400,
+  width: 400,
+  margin: {"t": 0, "b": 0, "l": 0, "r": 0},
+  showlegend: false
+  }
+
+Plotly.newPlot('myDiv', data, layout)
 
 const data01 = [
   { name: 'Game Incitives', value: 15 },
@@ -59,7 +67,7 @@ export default function Tokenomics() {
           <Pie dataKey="value" data={data01} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
           <Tooltip />
         </PieChart>
-        <div id="test"></Div>
+        <div id='myDiv'></Div>
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
