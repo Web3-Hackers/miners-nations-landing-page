@@ -53,7 +53,6 @@ export default function Tokenomics() {
           Tokenomics
         </button>
       </div>
-      <div className="md:w-1/2 mt-6 md:mt-0 w-full h-48 md:ml-4 ring-1 ring-blue-300"></div>
     </div>
   );
 }
