@@ -30,8 +30,9 @@ export default function Tokenomics() {
         <p className="font-semibold text-4xl sm:text-4xl pb-4">Tokenomics Text</p>
         <p className="font-light sm:text-lg pb-4">
           Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
-          ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
-          lorem ipsum lorem doro.
+          ipsum lorem loro lorem ipsum doret Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
+          ipsum lorem loro lorem ipsum doret Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
+          ipsum lorem loro lorem ipsum doret
         </p>
         
         <PieChart width={400} height={400}>
