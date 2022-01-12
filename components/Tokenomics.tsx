@@ -1,6 +1,8 @@
 import styles from "../styles/nav.module.css";
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 
+import Plot from 'react-plotly.js';
+
 const data01 = [
   { name: 'Game Incitives', value: 15 },
   { name: 'Team', value: 12.5 },
@@ -33,6 +35,7 @@ export default function Tokenomics() {
           ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
           lorem ipsum lorem doro.
         </p>
+        
         <PieChart width={400} height={400}>
           <Pie
             dataKey="value"
@@ -47,7 +50,25 @@ export default function Tokenomics() {
           <Pie dataKey="value" data={data01} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
           <Tooltip />
         </PieChart>
+        
+        <Plot
+        data={[
+          {
+            type: "pie",
+            values: [2, 3, 4, 4],
+            labels: [
+              "Wages",
+              "Operating expenses",
+              "Cost of sales",
+              "Insurance",
+            ],
+          },
+        ]}
+        layout={{ width: 500, height: 500, title: "Tokenomics" }}
+      />
+        
         <div id="myDiv"></div>
+        
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
