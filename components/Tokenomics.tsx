@@ -25,7 +25,7 @@ const data02 = [
 
 export default function Tokenomics() {
   return (
-    <div className="flex items-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
+    <div className="flex items-center justify-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
       <div className="md:w-1/2 w-full">
         <p className="font-semibold text-4xl sm:text-4xl pb-4">Tokenomics Text</p>
         <p className="font-light sm:text-lg pb-4">
