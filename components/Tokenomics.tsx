@@ -1,6 +1,6 @@
 import styles from "../styles/nav.module.css";
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
-import { Plotly } from 'plotly.js-dist';
+import Plotly from 'plotly.js-dist-min';
 
 var data = [{
   type: "pie",
