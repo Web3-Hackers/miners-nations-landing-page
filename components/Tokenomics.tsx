@@ -3,6 +3,8 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import * as Plotly from 'plotly.js';
 import { Config, Datum, Layout, PlotData, newPlot, Template } from 'plotly.js';
 
+const graphDiv = '#test';
+
 var data = [{
   type: "pie",
   values: [2, 3, 4, 4],
@@ -19,7 +21,7 @@ var layout = {
   showlegend: false
   }
 
-Plotly.newPlot('myDiv', data, layout)
+Plotly.newPlot(graphDiv, data, layout)
 
 const data01 = [
   { name: 'Game Incitives', value: 15 },
@@ -67,7 +69,7 @@ export default function Tokenomics() {
           <Pie dataKey="value" data={data01} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
           <Tooltip />
         </PieChart>
-        <div id='myDiv'></Div>
+        <div id="test"></Div>
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
