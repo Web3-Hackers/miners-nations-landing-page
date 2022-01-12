@@ -1,7 +1,5 @@
 import styles from "../styles/nav.module.css";
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
-import * as Plotly from 'plotly.js';
-import { Config, Datum, Layout, PlotData, newPlot, Template } from 'plotly.js';
 
 const data01 = [
   { name: 'Game Incitives', value: 15 },
