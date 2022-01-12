@@ -32,7 +32,6 @@ const Home: NextPage = () => {
         {click && <Overlay handleClick={handleClick} />}
         <Header handleClick={handleClick} />
         <HomeSect />
-        <ClaimDrop />
         <About />
         <Roadmap />
         <Tokenomics />
