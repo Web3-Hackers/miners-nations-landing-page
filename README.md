@@ -23,11 +23,15 @@ MetaMask. MetaMask is a software cryptocurrency wallet used to interact with the
 
 Buy MINE tokens to start your game!
 
+### Buy $RIG token
+
+Buy RIG tokens to start your game!
+
 ### My rig parts
 
 Build a unique rig to start minning as much tokens as you can
 
-
+# Next.js
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
