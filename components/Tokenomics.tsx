@@ -3,24 +3,6 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import * as Plotly from 'plotly.js';
 import { Config, Datum, Layout, PlotData, newPlot, Template } from 'plotly.js';
 
-var data = [{
-  type: "pie",
-  values: [2, 3, 4, 4],
-  labels: ["Wages", "Operating expenses", "Cost of sales", "Insurance"],
-  textinfo: "label+percent",
-  textposition: "outside",
-  automargin: true
-}]
-
-var layout = {
-  height: 400,
-  width: 400,
-  margin: {"t": 0, "b": 0, "l": 0, "r": 0},
-  showlegend: false
-  }
-
-Plotly.newPlot('myDiv', data, layout)
-
 const data01 = [
   { name: 'Game Incitives', value: 15 },
   { name: 'Team', value: 12.5 },
