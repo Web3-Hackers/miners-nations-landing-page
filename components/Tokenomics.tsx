@@ -50,10 +50,8 @@ export default function Tokenomics() {
           <Tooltip />
         </PieChart>
         
-        <div id="myDiv"></div>
-        
         <button
-          className={`text-center justify-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
+          className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
           Tokenomics
         </button>
