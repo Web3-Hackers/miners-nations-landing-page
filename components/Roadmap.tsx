@@ -10,7 +10,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 export default function Roadmap() {
   return (
     <div className="flex items-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
-      <div className="flex items-center">
+      <div className="flex items-center justify-center">
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineSeparator>
