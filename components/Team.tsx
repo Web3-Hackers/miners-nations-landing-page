@@ -14,7 +14,7 @@ export default function Team() {
         <button
           className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
         >
-          Team
+          Join Team
         </button>
       </div>
     </div>
