@@ -14,15 +14,6 @@ const data01 = [
   { name: 'Private Sale', value: 10 },
 ];
 
-const data02 = [
-  { name: 'Group A', value: 2400 },
-  { name: 'Group B', value: 4567 },
-  { name: 'Group C', value: 1398 },
-  { name: 'Group D', value: 9800 },
-  { name: 'Group E', value: 3908 },
-  { name: 'Group F', value: 4800 },
-];
-
 export default function Tokenomics() {
   return (
     <div className="flex items-center justify-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
