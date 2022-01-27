@@ -1,19 +1,47 @@
+import Image from "next/image";
 import styles from "../styles/nav.module.css";
+import Grid from "@mui/material/Grid";
 
 export default function About() {
+
   return (
-    <div className="flex items-center justify-center flex-wrap md:flex-nowrap bg-blue-200 md:px-24 py-24 px-4 ">
-      <div className="md:w-1/2 w-full">
-        <p className="font-semibold text-4xl sm:text-4xl pb-4">About Text</p>
-        <p className="font-light sm:text-lg pb-4">
-          The Miners Nation is a first person shooter game where players fend off enemies to collect PC parts. Players can then exchange parts for Rig Token and purchase more parts to buidl a rig. Players also have the ability to mint parts on Open Sea as NFTs. These same NFTs can be combined to buidl a rig (Marketplace in development). Once a rig is assembled a player can then use the rig to mine Rig Token. Rig Token will be used to exchange for other tokens on exchanges.
-        </p>
-        <button
-          className={`text-center p-3 bg-blue-500 font-bold rounded-md ${styles.btn}`}
-        >
-          About
-        </button>
-      </div>
+    <div className='pl-10 bg-black px-4 py-10' style={{ color: "white" }}>
+      <Grid container spacing={2}>
+        <Grid item md={3} />
+        <Grid item md={2} xs={12}>
+          <div className=''>
+            <h1
+              style={{
+                fontSize: "2em",
+                color: "#FFC11C",
+              }}
+            >
+              ABOUT MINER'S NATION
+            </h1>
+            <p className='font-light sm:text-lg pb-4'>
+              The Miners Nation is a first person shooter game where players
+              fend off enemies to collect PC parts. Players can then exchange
+              parts for Rig Token and purchase more parts to build a rig.
+              Players also have the ability to mint parts on Open Sea as NFTs.
+            </p>
+            <p className='font-light sm:text-lg pb-4'>
+              These same NFTs can be combined to buidl a rig (Marketplace in
+              development). Once a rig is assembled a player can then use the
+              rig to mine Rig Token. Rig Token will be used to exchange for
+              other tokens on exchanges.
+            </p>
+          </div>
+        </Grid>
+        <Grid item md={4} sx={{ display: "block" }} xs={12}>
+          <Image
+            src='/gameplay.jpg'
+            alt='gameplay'
+            width={1000}
+            height={500}
+          />
+        </Grid>
+        <Grid item md={3} />
+      </Grid>
     </div>
   );
 }

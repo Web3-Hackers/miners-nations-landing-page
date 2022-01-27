@@ -26,18 +26,18 @@ const Home: NextPage = () => {
         <title>Miner&apos;s Nation</title>
         <meta name="description" content="First Person Shooter Blockchain Game" />
         <link rel="icon" href="/favicon.png" />
+        <link href="http://fonts.cdnfonts.com/css/i-am-a-designer" rel="stylesheet" />
       </Head>
 
       <main className={`relative ${click && "overflow-y-hidden h-screen"}`}>
         {click && <Overlay handleClick={handleClick} />}
         <Header handleClick={handleClick} />
-        <HomeSect />
         <About />
+        <Airdrop />
         <Roadmap />
         <Tokenomics />
         <Team />
         <Presale />
-        <Airdrop />
         <Footer />
       </main>
     </div>
