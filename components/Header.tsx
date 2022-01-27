@@ -41,7 +41,7 @@ export default function Header({ handleClick }: { handleClick: any }) {
           PLAY AND EARN!
         </strong>
         <h1 style={{ fontFamily: "I Am A Designer", fontSize: "2em" }}>
-          WELCOME TO MINER'S NATION
+          WELCOME TO MINER&apos;S NATION
         </h1>
         <p className='font-light w-full md:w-1/2 sm:text-lg mt-4 mb-8'>
           The Miners Nation is a first-person shooter game. Fight enemies and

@@ -16,7 +16,7 @@ export default function About() {
                 color: "#FFC11C",
               }}
             >
-              ABOUT MINER'S NATION
+              ABOUT MINER&apos;S NATION
             </h1>
             <p className='font-light sm:text-lg pb-4'>
               The Miners Nation is a first person shooter game where players

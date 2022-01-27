@@ -1,7 +1,12 @@
 export const calculateTimeLeft = () => {
   let difference = +new Date(`02/28/2022`) - +new Date();
 
-  let timeLeft = {};
+  let timeLeft = {
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
+  };
 
   if (difference > 0) {
     timeLeft = {
