@@ -7,8 +7,8 @@ export default function NavBar({ handleClick }: { handleClick: any }) {
   return (
     <div className='w-full fixed z-10 left-0 bg-black flex items-center text-white font-bold px-4 py-3 md:py-4 shadow-md'>
       <Box sx={{ ml: 10 }}>
-        <Image
-          src='/logo.svg'
+        <img
+          src='./logo.svg'
           alt='Picture of the author'
           width='200'
           height='50'

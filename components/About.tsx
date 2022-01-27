@@ -33,8 +33,8 @@ export default function About() {
           </div>
         </Grid>
         <Grid item md={4} sx={{ display: "block" }} xs={12}>
-          <Image
-            src='/gameplay.jpg'
+          <img
+            src='./gameplay.jpg'
             alt='gameplay'
             width={1000}
             height={500}
