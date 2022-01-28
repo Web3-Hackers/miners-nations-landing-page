@@ -3,12 +3,16 @@ import styles from "../styles/nav.module.css";
 import Grid from "@mui/material/Grid";
 
 export default function About() {
-
   return (
     <div className='pl-10 bg-black px-4 py-10' style={{ color: "white" }}>
-      <Grid container spacing={2}>
-        <Grid item md={3} />
-        <Grid item md={2} xs={12}>
+      <Grid
+        container
+        spacing={0}
+        alignItems='center'
+        justifyContent='center'
+        marginY={10}
+      >
+        <Grid item md={3}>
           <div className=''>
             <h1
               style={{
@@ -32,15 +36,9 @@ export default function About() {
             </p>
           </div>
         </Grid>
-        <Grid item md={4} sx={{ display: "block" }} xs={12}>
-          <img
-            src='./gameplay.jpg'
-            alt='gameplay'
-            width={1000}
-            height={500}
-          />
+        <Grid item md={3} sx={{ display: "block" }} xs={12}>
+          <img src='./gameplay.jpg' alt='gameplay' width={1000} height={500} />
         </Grid>
-        <Grid item md={3} />
       </Grid>
     </div>
   );

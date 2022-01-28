@@ -13,6 +13,7 @@ import Team from "../components/Team";
 import Presale from "../components/Presale";
 import Airdrop from "../components/Airdrop";
 import Footer from "../components/Footer";
+import NftAssets from "../components/NftAssets";
 
 const Home: NextPage = () => {
   const [click, setClick] = useState(false);
@@ -34,10 +35,10 @@ const Home: NextPage = () => {
         <Header handleClick={handleClick} />
         <About />
         <Airdrop />
-        <Roadmap />
+        <NftAssets />
         <Tokenomics />
+        <Roadmap />
         <Team />
-        <Presale />
         <Footer />
       </main>
     </div>

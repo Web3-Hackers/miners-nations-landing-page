@@ -1,21 +1,24 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
 import Grid from "@mui/material/Grid";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
+import styles from "../styles/nav.module.css";
+import { useMoralis } from "react-moralis";
 
 export default function NavBar({ handleClick }: { handleClick: any }) {
+  const { authenticate, logout, isAuthenticated } = useMoralis();
+
   return (
     <div className='w-full fixed z-10 left-0 bg-black flex items-center text-white font-bold px-4 py-3 md:py-4 shadow-md'>
-      <Box sx={{ ml: 10 }}>
+      <Box sx={{ ml: 5 }}>
         <img
           src='./logo.svg'
           alt='Picture of the author'
-          width='200'
-          height='50'
+          width='150vw'
         />
       </Box>
-      <Grid container spacing={1} sx={{ padding: "0px", marginLeft: 5 }}>
-        <Grid item xs={1} padding={1}>
+      <Grid container spacing={1} sx={{ padding: "0px", marginLeft: 2 }}>
+        <Grid item xs={1}>
           <NavLinks text='Home' />
         </Grid>
         <Grid item xs={1} textAlign='center'>
@@ -30,14 +33,34 @@ export default function NavBar({ handleClick }: { handleClick: any }) {
         <Grid item xs={2} textAlign='center'>
           <NavLinks text='Tokenomics' />
         </Grid>
-        <Grid item xs={1} textAlign='center'>
+        <Grid item xs={2} textAlign='center'>
           <NavLinks text='Roadmap' />
         </Grid>
         <Grid item xs={1} textAlign='center'>
           <NavLinks text='Team' />
         </Grid>
-        <Grid item xs={3}>
-          <Button variant='outlined'>CONNECT WALLET</Button>
+        <Grid item md={2} xs={2}>
+          <Box
+            sx={{
+              backgroundColor: "#FFC11C",
+              width: "fit-content",
+              border: "3px black solid",
+            }}
+          >
+            <button
+              onClick={() => authenticate()}
+              className={`text-center p-2 font-bold ${styles.btn}`}
+              style={{
+                color: "black",
+                backgroundColor: "#FFC11C",
+                margin: "0.1rem",
+                border: "3px black solid",
+                fontSize: '0.7rem'
+              }}
+            >
+              JOIN PRESALE
+            </button>
+          </Box>
         </Grid>
       </Grid>
       <Box

@@ -1,20 +1,32 @@
+import { Grid } from "@mui/material";
+
 export default function NftAssets() {
-    return (
-      <div className="w-screen flex flex-col items-center">
-        <p className="font-light md:w-1/2 w-screen px-4 md:px-0 pt-24 text-center">
-          {" "}
-          Loren ipsum ipsum lorem ipsum doret loro lorem ipsum doret loro lorem
-          ipsum lorem loro lorem ipsum doret lorum lorem ipsum lorem doro lorum
-          lorem ipsum lorem doro lorum lorem ipsum lorem doro lorum lorem ipsum
-          lorem doro lorum lorem ipsum lorem doro.
-        </p>
-        <div className="flex items-center justify-center pb-10 pt-12 flex-col md:flex-row w-full">
-          <div className="md:w-1/5 h-48 w-5/6 ring-1 ring-blue-300 hover:ring-blue-500 cursor-pointer ease-in md:mr-6 rounded-md"></div>
-          <div className="md:w-1/5 h-48 w-5/6 ring-1 ring-blue-300 hover:ring-blue-500 cursor-pointer ease-in md:mr-6 mt-6 md:mt-0 rounded-md"></div>
-          <div className="md:w-1/5 h-48 w-5/6 ring-1 ring-blue-300 hover:ring-blue-500 cursor-pointer ease-in md:mr-6  mt-6 md:mt-0  rounded-md"></div>
-          <div className="md:w-1/5 h-48 w-5/6 ring-1 ring-blue-300 hover:ring-blue-500 cursor-pointer ease-in  mt-6 md:mt-0  rounded-md"></div>
-        </div>
-      </div>
-    );
-  }
-  
+  return (
+    <Grid
+      container
+      spacing={0}
+      alignItems='center'
+      justifyContent='center'
+      pt={10}
+      sx={{
+        color: "white",
+        background:
+          " linear-gradient(180deg, #0B1D27 39.64%, #35709C 123.19%, rgba(53, 112, 156, 0.19) 123.19%)",
+      }}
+      flexDirection='column'
+    >
+      <h1
+        style={{
+          fontSize: "2em",
+          color: "#FFC11C",
+        }}
+      >
+        NFT AND ASSETS
+      </h1>
+      <p className='font-light md:px-0 mb-5'>
+        Egestas volutpat sem et leo ipsum, diam. Mattis nisl etiam ut varius.
+      </p>
+      <img src='./nftassets.png' alt='assets' width={1000} height={500} />
+    </Grid>
+  );
+}
